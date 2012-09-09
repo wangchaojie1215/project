@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C341D9F315FC3A990013D9C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C341D9F215FC3A990013D9C9 /* UIKit.framework */; };
+		C341D9F515FC3A990013D9C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C341D9F415FC3A990013D9C9 /* Foundation.framework */; };
+		C341D9F715FC3A990013D9C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C341D9F615FC3A990013D9C9 /* CoreGraphics.framework */; };
+		C341D9FD15FC3A9A0013D9C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C341D9FB15FC3A9A0013D9C9 /* InfoPlist.strings */; };
+		C341D9FF15FC3A9A0013D9C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C341D9FE15FC3A9A0013D9C9 /* main.m */; };
+		C341DA0315FC3A9A0013D9C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA0215FC3A9A0013D9C9 /* AppDelegate.m */; };
+		C341DA1F15FC3AC40013D9C9 /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA1E15FC3AC40013D9C9 /* firstViewController.m */; };
+		C341DA2215FC3ACC0013D9C9 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA2115FC3ACC0013D9C9 /* secondViewController.m */; };
+		C341DA2815FC3B130013D9C9 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA2715FC3B130013D9C9 /* thirdViewController.m */; };
+		C341DA2C15FC3B6F0013D9C9 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA2A15FC3B6F0013D9C9 /* HomePageViewController.m */; };
+		C341DA2D15FC3B6F0013D9C9 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C341DA2B15FC3B6F0013D9C9 /* HomePageViewController.xib */; };
+		C341DA3115FC3BD60013D9C9 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA2F15FC3BD60013D9C9 /* WeatherViewController.m */; };
+		C341DA3215FC3BD60013D9C9 /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C341DA3015FC3BD60013D9C9 /* WeatherViewController.xib */; };
+		C341DA3615FC3C220013D9C9 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA3415FC3C220013D9C9 /* FoodViewController.m */; };
+		C341DA3715FC3C220013D9C9 /* FoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C341DA3515FC3C220013D9C9 /* FoodViewController.xib */; };
+		C3A96D5615FC433F00D5C6C0 /* 87-wine-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A96D5515FC433F00D5C6C0 /* 87-wine-glass.png */; };
+		C3A96D5915FC434B00D5C6C0 /* 53-house.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A96D5715FC434B00D5C6C0 /* 53-house.png */; };
+		C3A96D5A15FC434B00D5C6C0 /* 56-cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A96D5815FC434B00D5C6C0 /* 56-cloud.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C341D9EE15FC3A990013D9C9 /* 风尚生活.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "风尚生活.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C341D9F215FC3A990013D9C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C341D9F415FC3A990013D9C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C341D9F615FC3A990013D9C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C341D9FA15FC3A9A0013D9C9 /* 风尚生活-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "风尚生活-Info.plist"; sourceTree = "<group>"; };
+		C341D9FC15FC3A9A0013D9C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C341D9FE15FC3A9A0013D9C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C341DA0015FC3A9A0013D9C9 /* 风尚生活-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "风尚生活-Prefix.pch"; sourceTree = "<group>"; };
+		C341DA0115FC3A9A0013D9C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C341DA0215FC3A9A0013D9C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C341DA1D15FC3AC40013D9C9 /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		C341DA1E15FC3AC40013D9C9 /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
+		C341DA2015FC3ACC0013D9C9 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		C341DA2115FC3ACC0013D9C9 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		C341DA2615FC3B130013D9C9 /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdViewController.h; sourceTree = "<group>"; };
+		C341DA2715FC3B130013D9C9 /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdViewController.m; sourceTree = "<group>"; };
+		C341DA2915FC3B6F0013D9C9 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		C341DA2A15FC3B6F0013D9C9 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		C341DA2B15FC3B6F0013D9C9 /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		C341DA2E15FC3BD60013D9C9 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		C341DA2F15FC3BD60013D9C9 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		C341DA3015FC3BD60013D9C9 /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
+		C341DA3315FC3C220013D9C9 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		C341DA3415FC3C220013D9C9 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		C341DA3515FC3C220013D9C9 /* FoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodViewController.xib; sourceTree = "<group>"; };
+		C3A96D5515FC433F00D5C6C0 /* 87-wine-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "87-wine-glass.png"; sourceTree = "<group>"; };
+		C3A96D5715FC434B00D5C6C0 /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-house.png"; sourceTree = "<group>"; };
+		C3A96D5815FC434B00D5C6C0 /* 56-cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "56-cloud.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C341D9EB15FC3A990013D9C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C341D9F315FC3A990013D9C9 /* UIKit.framework in Frameworks */,
+				C341D9F515FC3A990013D9C9 /* Foundation.framework in Frameworks */,
+				C341D9F715FC3A990013D9C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C341D9E315FC3A990013D9C9 = {
+			isa = PBXGroup;
+			children = (
+				C341D9F815FC3A9A0013D9C9 /* 风尚生活 */,
+				C341D9F115FC3A990013D9C9 /* Frameworks */,
+				C341D9EF15FC3A990013D9C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C341D9EF15FC3A990013D9C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C341D9EE15FC3A990013D9C9 /* 风尚生活.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C341D9F115FC3A990013D9C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C341D9F215FC3A990013D9C9 /* UIKit.framework */,
+				C341D9F415FC3A990013D9C9 /* Foundation.framework */,
+				C341D9F615FC3A990013D9C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C341D9F815FC3A9A0013D9C9 /* 风尚生活 */ = {
+			isa = PBXGroup;
+			children = (
+				C341DA0115FC3A9A0013D9C9 /* AppDelegate.h */,
+				C341DA0215FC3A9A0013D9C9 /* AppDelegate.m */,
+				C341DA1D15FC3AC40013D9C9 /* firstViewController.h */,
+				C341DA1E15FC3AC40013D9C9 /* firstViewController.m */,
+				C341DA2015FC3ACC0013D9C9 /* secondViewController.h */,
+				C341DA2115FC3ACC0013D9C9 /* secondViewController.m */,
+				C341DA2615FC3B130013D9C9 /* thirdViewController.h */,
+				C341DA2715FC3B130013D9C9 /* thirdViewController.m */,
+				C3A96D5D15FC43C000D5C6C0 /* homePage */,
+				C3A96D5C15FC43B500D5C6C0 /* food */,
+				C3A96D5B15FC43A300D5C6C0 /* weather */,
+				C341D9F915FC3A9A0013D9C9 /* Supporting Files */,
+			);
+			path = "风尚生活";
+			sourceTree = "<group>";
+		};
+		C341D9F915FC3A9A0013D9C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C341DA3815FC3D6E0013D9C9 /* images */,
+				C341D9FA15FC3A9A0013D9C9 /* 风尚生活-Info.plist */,
+				C341D9FB15FC3A9A0013D9C9 /* InfoPlist.strings */,
+				C341D9FE15FC3A9A0013D9C9 /* main.m */,
+				C341DA0015FC3A9A0013D9C9 /* 风尚生活-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C341DA3815FC3D6E0013D9C9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C3A96D5715FC434B00D5C6C0 /* 53-house.png */,
+				C3A96D5815FC434B00D5C6C0 /* 56-cloud.png */,
+				C3A96D5515FC433F00D5C6C0 /* 87-wine-glass.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C3A96D5B15FC43A300D5C6C0 /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				C341DA2E15FC3BD60013D9C9 /* WeatherViewController.h */,
+				C341DA2F15FC3BD60013D9C9 /* WeatherViewController.m */,
+				C341DA3015FC3BD60013D9C9 /* WeatherViewController.xib */,
+			);
+			name = weather;
+			sourceTree = "<group>";
+		};
+		C3A96D5C15FC43B500D5C6C0 /* food */ = {
+			isa = PBXGroup;
+			children = (
+				C341DA3315FC3C220013D9C9 /* FoodViewController.h */,
+				C341DA3415FC3C220013D9C9 /* FoodViewController.m */,
+				C341DA3515FC3C220013D9C9 /* FoodViewController.xib */,
+			);
+			name = food;
+			sourceTree = "<group>";
+		};
+		C3A96D5D15FC43C000D5C6C0 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				C341DA2915FC3B6F0013D9C9 /* HomePageViewController.h */,
+				C341DA2A15FC3B6F0013D9C9 /* HomePageViewController.m */,
+				C341DA2B15FC3B6F0013D9C9 /* HomePageViewController.xib */,
+			);
+			name = homePage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C341D9ED15FC3A990013D9C9 /* 风尚生活 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C341DA1A15FC3A9A0013D9C9 /* Build configuration list for PBXNativeTarget "风尚生活" */;
+			buildPhases = (
+				C341D9EA15FC3A990013D9C9 /* Sources */,
+				C341D9EB15FC3A990013D9C9 /* Frameworks */,
+				C341D9EC15FC3A990013D9C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "风尚生活";
+			productName = "风尚生活";
+			productReference = C341D9EE15FC3A990013D9C9 /* 风尚生活.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C341D9E515FC3A990013D9C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = administrator;
+			};
+			buildConfigurationList = C341D9E815FC3A990013D9C9 /* Build configuration list for PBXProject "风尚生活" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C341D9E315FC3A990013D9C9;
+			productRefGroup = C341D9EF15FC3A990013D9C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C341D9ED15FC3A990013D9C9 /* 风尚生活 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C341D9EC15FC3A990013D9C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C341D9FD15FC3A9A0013D9C9 /* InfoPlist.strings in Resources */,
+				C341DA2D15FC3B6F0013D9C9 /* HomePageViewController.xib in Resources */,
+				C341DA3215FC3BD60013D9C9 /* WeatherViewController.xib in Resources */,
+				C341DA3715FC3C220013D9C9 /* FoodViewController.xib in Resources */,
+				C3A96D5615FC433F00D5C6C0 /* 87-wine-glass.png in Resources */,
+				C3A96D5915FC434B00D5C6C0 /* 53-house.png in Resources */,
+				C3A96D5A15FC434B00D5C6C0 /* 56-cloud.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C341D9EA15FC3A990013D9C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C341D9FF15FC3A9A0013D9C9 /* main.m in Sources */,
+				C341DA0315FC3A9A0013D9C9 /* AppDelegate.m in Sources */,
+				C341DA1F15FC3AC40013D9C9 /* firstViewController.m in Sources */,
+				C341DA2215FC3ACC0013D9C9 /* secondViewController.m in Sources */,
+				C341DA2815FC3B130013D9C9 /* thirdViewController.m in Sources */,
+				C341DA2C15FC3B6F0013D9C9 /* HomePageViewController.m in Sources */,
+				C341DA3115FC3BD60013D9C9 /* WeatherViewController.m in Sources */,
+				C341DA3615FC3C220013D9C9 /* FoodViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C341D9FB15FC3A9A0013D9C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C341D9FC15FC3A9A0013D9C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C341DA1815FC3A9A0013D9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C341DA1915FC3A9A0013D9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C341DA1B15FC3A9A0013D9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "风尚生活/风尚生活-Prefix.pch";
+				INFOPLIST_FILE = "风尚生活/风尚生活-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C341DA1C15FC3A9A0013D9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "风尚生活/风尚生活-Prefix.pch";
+				INFOPLIST_FILE = "风尚生活/风尚生活-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C341D9E815FC3A990013D9C9 /* Build configuration list for PBXProject "风尚生活" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C341DA1815FC3A9A0013D9C9 /* Debug */,
+				C341DA1915FC3A9A0013D9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C341DA1A15FC3A9A0013D9C9 /* Build configuration list for PBXNativeTarget "风尚生活" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C341DA1B15FC3A9A0013D9C9 /* Debug */,
+				C341DA1C15FC3A9A0013D9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C341D9E515FC3A990013D9C9 /* Project object */;
+}
