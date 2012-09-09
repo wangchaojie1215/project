@@ -21,7 +21,7 @@
         self.root=[[WeatherViewController alloc]init];
         self=(secondViewController *)[[UINavigationController alloc]initWithRootViewController:self.root];
         self.title=@"天气";
-        self.tabBarItem.image=[UIImage imageNamed:@"56-cloud"];
+        self.tabBarItem.image=[UIImage imageNamed:@"天气"];
     }
     return self;
 }

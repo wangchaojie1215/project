@@ -21,7 +21,7 @@
         self.root=[[HomePageViewController alloc]init];
         self=(firstViewController *)[[UINavigationController alloc]initWithRootViewController:self.root];
         self.title=@"首页";
-        self.tabBarItem.image=[UIImage imageNamed:@"53-house"];
+        self.tabBarItem.image=[UIImage imageNamed:@"首页"];
     }
     return self;
 }

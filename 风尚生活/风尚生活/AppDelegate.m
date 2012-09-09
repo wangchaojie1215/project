@@ -9,8 +9,8 @@
 #import "AppDelegate.h"
 #import "firstViewController.h"
 #import "secondViewController.h"
-#import "thirdViewController.h"
-
+#import "FoodViewController.h"
+#import "fourViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -19,9 +19,10 @@
     // Override point for customization after application launch.
     firstViewController *first=[[firstViewController alloc]init];
     secondViewController *second=[[secondViewController alloc]init];
-    thirdViewController *third=[[thirdViewController alloc]init];
+    FoodViewController *third=[[FoodViewController alloc]init];
+    fourViewController *four=[[fourViewController alloc]init];
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[first, second,third];
+    self.tabBarController.viewControllers = @[first, second,third,four];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
