@@ -2,7 +2,7 @@
 //  secondViewController.h
 //  风尚生活
 //
-//  Created by administrator on 12-9-9.
+//  Created by administrator on 12-9-10.
 //  Copyright (c) 2012年 administrator. All rights reserved.
 //
 
@@ -11,3 +11,4 @@
 @interface secondViewController : UINavigationController
 @property(retain,nonatomic)WeatherViewController *root;
 @end
+

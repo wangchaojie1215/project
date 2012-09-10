@@ -2,14 +2,14 @@
 //  AppDelegate.m
 //  风尚生活
 //
-//  Created by administrator on 12-9-9.
+//  Created by administrator on 12-9-10.
 //  Copyright (c) 2012年 administrator. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "firstViewController.h"
 #import "secondViewController.h"
-#import "FoodViewController.h"
+#import "thirdViewController.h"
 #import "fourViewController.h"
 @implementation AppDelegate
 
@@ -19,10 +19,10 @@
     // Override point for customization after application launch.
     firstViewController *first=[[firstViewController alloc]init];
     secondViewController *second=[[secondViewController alloc]init];
-    FoodViewController *third=[[FoodViewController alloc]init];
+    thirdViewController *third=[[thirdViewController alloc]init];
     fourViewController *four=[[fourViewController alloc]init];
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[first, second,third,four];
+    self.tabBarController.viewControllers = @[first,second,third,four];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

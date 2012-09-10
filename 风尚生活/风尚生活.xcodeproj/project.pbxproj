@@ -7,195 +7,200 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C341D9F315FC3A990013D9C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C341D9F215FC3A990013D9C9 /* UIKit.framework */; };
-		C341D9F515FC3A990013D9C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C341D9F415FC3A990013D9C9 /* Foundation.framework */; };
-		C341D9F715FC3A990013D9C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C341D9F615FC3A990013D9C9 /* CoreGraphics.framework */; };
-		C341D9FD15FC3A9A0013D9C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C341D9FB15FC3A9A0013D9C9 /* InfoPlist.strings */; };
-		C341D9FF15FC3A9A0013D9C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C341D9FE15FC3A9A0013D9C9 /* main.m */; };
-		C341DA0315FC3A9A0013D9C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA0215FC3A9A0013D9C9 /* AppDelegate.m */; };
-		C341DA1F15FC3AC40013D9C9 /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA1E15FC3AC40013D9C9 /* firstViewController.m */; };
-		C341DA2215FC3ACC0013D9C9 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA2115FC3ACC0013D9C9 /* secondViewController.m */; };
-		C341DA2C15FC3B6F0013D9C9 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA2A15FC3B6F0013D9C9 /* HomePageViewController.m */; };
-		C341DA2D15FC3B6F0013D9C9 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C341DA2B15FC3B6F0013D9C9 /* HomePageViewController.xib */; };
-		C341DA3115FC3BD60013D9C9 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA2F15FC3BD60013D9C9 /* WeatherViewController.m */; };
-		C341DA3215FC3BD60013D9C9 /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C341DA3015FC3BD60013D9C9 /* WeatherViewController.xib */; };
-		C341DA3615FC3C220013D9C9 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C341DA3415FC3C220013D9C9 /* FoodViewController.m */; };
-		C341DA3715FC3C220013D9C9 /* FoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C341DA3515FC3C220013D9C9 /* FoodViewController.xib */; };
-		C3A96D5915FC434B00D5C6C0 /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A96D5715FC434B00D5C6C0 /* 首页.png */; };
-		C3A96D5A15FC434B00D5C6C0 /* 天气.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A96D5815FC434B00D5C6C0 /* 天气.png */; };
-		C3C1A06215FC737E0014F202 /* fourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C1A06115FC737E0014F202 /* fourViewController.m */; };
-		C3C1A06515FC73BE0014F202 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C1A06415FC73BE0014F202 /* FileViewController.m */; };
-		C3C1A06815FC74CD0014F202 /* 影视.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1A06615FC74CD0014F202 /* 影视.png */; };
-		C3C1A06915FC74CD0014F202 /* 饮食.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1A06715FC74CD0014F202 /* 饮食.png */; };
+		C3D8B6EE15FD830A008DCE4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D8B6ED15FD830A008DCE4B /* UIKit.framework */; };
+		C3D8B6F015FD830A008DCE4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D8B6EF15FD830A008DCE4B /* Foundation.framework */; };
+		C3D8B6F215FD830A008DCE4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D8B6F115FD830A008DCE4B /* CoreGraphics.framework */; };
+		C3D8B6F815FD830A008DCE4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3D8B6F615FD830A008DCE4B /* InfoPlist.strings */; };
+		C3D8B6FA15FD830A008DCE4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8B6F915FD830A008DCE4B /* main.m */; };
+		C3D8B6FE15FD830A008DCE4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8B6FD15FD830A008DCE4B /* AppDelegate.m */; };
+		C3D8B71A15FD831C008DCE4B /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8B71915FD831C008DCE4B /* firstViewController.m */; };
+		C3D8B71D15FD8325008DCE4B /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8B71C15FD8325008DCE4B /* secondViewController.m */; };
+		C3D8B72015FD832C008DCE4B /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8B71F15FD832C008DCE4B /* thirdViewController.m */; };
+		C3D8B72315FD8334008DCE4B /* fourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8B72215FD8334008DCE4B /* fourViewController.m */; };
+		C3D8B73C15FD8467008DCE4B /* 影视.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D8B73815FD8467008DCE4B /* 影视.png */; };
+		C3D8B73D15FD8467008DCE4B /* 饮食.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D8B73915FD8467008DCE4B /* 饮食.png */; };
+		C3D8B73E15FD8467008DCE4B /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D8B73A15FD8467008DCE4B /* 首页.png */; };
+		C3D8B73F15FD8467008DCE4B /* 天气.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D8B73B15FD8467008DCE4B /* 天气.png */; };
+		C3D8B74315FD8530008DCE4B /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8B74115FD8530008DCE4B /* HomePageViewController.m */; };
+		C3D8B74415FD8530008DCE4B /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D8B74215FD8530008DCE4B /* HomePageViewController.xib */; };
+		C3D8B74D15FD85CD008DCE4B /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8B74B15FD85CD008DCE4B /* WeatherViewController.m */; };
+		C3D8B74E15FD85CD008DCE4B /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D8B74C15FD85CD008DCE4B /* WeatherViewController.xib */; };
+		C3D8B75215FD862E008DCE4B /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8B75015FD862E008DCE4B /* FoodViewController.m */; };
+		C3D8B75315FD862E008DCE4B /* FoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D8B75115FD862E008DCE4B /* FoodViewController.xib */; };
+		C3D8B75615FD867F008DCE4B /* FilmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8B75515FD867F008DCE4B /* FilmViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C341D9EE15FC3A990013D9C9 /* 风尚生活.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "风尚生活.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C341D9F215FC3A990013D9C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C341D9F415FC3A990013D9C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C341D9F615FC3A990013D9C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C341D9FA15FC3A9A0013D9C9 /* 风尚生活-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "风尚生活-Info.plist"; sourceTree = "<group>"; };
-		C341D9FC15FC3A9A0013D9C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C341D9FE15FC3A9A0013D9C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C341DA0015FC3A9A0013D9C9 /* 风尚生活-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "风尚生活-Prefix.pch"; sourceTree = "<group>"; };
-		C341DA0115FC3A9A0013D9C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C341DA0215FC3A9A0013D9C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C341DA1D15FC3AC40013D9C9 /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
-		C341DA1E15FC3AC40013D9C9 /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
-		C341DA2015FC3ACC0013D9C9 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
-		C341DA2115FC3ACC0013D9C9 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
-		C341DA2915FC3B6F0013D9C9 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
-		C341DA2A15FC3B6F0013D9C9 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
-		C341DA2B15FC3B6F0013D9C9 /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
-		C341DA2E15FC3BD60013D9C9 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
-		C341DA2F15FC3BD60013D9C9 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
-		C341DA3015FC3BD60013D9C9 /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
-		C341DA3315FC3C220013D9C9 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
-		C341DA3415FC3C220013D9C9 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
-		C341DA3515FC3C220013D9C9 /* FoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodViewController.xib; sourceTree = "<group>"; };
-		C3A96D5715FC434B00D5C6C0 /* 首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页.png"; sourceTree = "<group>"; };
-		C3A96D5815FC434B00D5C6C0 /* 天气.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天气.png"; sourceTree = "<group>"; };
-		C3C1A06015FC737E0014F202 /* fourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourViewController.h; sourceTree = "<group>"; };
-		C3C1A06115FC737E0014F202 /* fourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourViewController.m; sourceTree = "<group>"; };
-		C3C1A06315FC73BE0014F202 /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
-		C3C1A06415FC73BE0014F202 /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
-		C3C1A06615FC74CD0014F202 /* 影视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "影视.png"; sourceTree = "<group>"; };
-		C3C1A06715FC74CD0014F202 /* 饮食.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饮食.png"; sourceTree = "<group>"; };
+		C3D8B6E915FD830A008DCE4B /* 风尚生活.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "风尚生活.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D8B6ED15FD830A008DCE4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3D8B6EF15FD830A008DCE4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3D8B6F115FD830A008DCE4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3D8B6F515FD830A008DCE4B /* 风尚生活-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "风尚生活-Info.plist"; sourceTree = "<group>"; };
+		C3D8B6F715FD830A008DCE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3D8B6F915FD830A008DCE4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3D8B6FB15FD830A008DCE4B /* 风尚生活-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "风尚生活-Prefix.pch"; sourceTree = "<group>"; };
+		C3D8B6FC15FD830A008DCE4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3D8B6FD15FD830A008DCE4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3D8B71815FD831C008DCE4B /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		C3D8B71915FD831C008DCE4B /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
+		C3D8B71B15FD8325008DCE4B /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		C3D8B71C15FD8325008DCE4B /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		C3D8B71E15FD832C008DCE4B /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdViewController.h; sourceTree = "<group>"; };
+		C3D8B71F15FD832C008DCE4B /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdViewController.m; sourceTree = "<group>"; };
+		C3D8B72115FD8334008DCE4B /* fourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourViewController.h; sourceTree = "<group>"; };
+		C3D8B72215FD8334008DCE4B /* fourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourViewController.m; sourceTree = "<group>"; };
+		C3D8B73815FD8467008DCE4B /* 影视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "影视.png"; sourceTree = "<group>"; };
+		C3D8B73915FD8467008DCE4B /* 饮食.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饮食.png"; sourceTree = "<group>"; };
+		C3D8B73A15FD8467008DCE4B /* 首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页.png"; sourceTree = "<group>"; };
+		C3D8B73B15FD8467008DCE4B /* 天气.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天气.png"; sourceTree = "<group>"; };
+		C3D8B74015FD8530008DCE4B /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		C3D8B74115FD8530008DCE4B /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		C3D8B74215FD8530008DCE4B /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		C3D8B74A15FD85CD008DCE4B /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		C3D8B74B15FD85CD008DCE4B /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		C3D8B74C15FD85CD008DCE4B /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
+		C3D8B74F15FD862E008DCE4B /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		C3D8B75015FD862E008DCE4B /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		C3D8B75115FD862E008DCE4B /* FoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodViewController.xib; sourceTree = "<group>"; };
+		C3D8B75415FD867F008DCE4B /* FilmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmViewController.h; sourceTree = "<group>"; };
+		C3D8B75515FD867F008DCE4B /* FilmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C341D9EB15FC3A990013D9C9 /* Frameworks */ = {
+		C3D8B6E615FD830A008DCE4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C341D9F315FC3A990013D9C9 /* UIKit.framework in Frameworks */,
-				C341D9F515FC3A990013D9C9 /* Foundation.framework in Frameworks */,
-				C341D9F715FC3A990013D9C9 /* CoreGraphics.framework in Frameworks */,
+				C3D8B6EE15FD830A008DCE4B /* UIKit.framework in Frameworks */,
+				C3D8B6F015FD830A008DCE4B /* Foundation.framework in Frameworks */,
+				C3D8B6F215FD830A008DCE4B /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C341D9E315FC3A990013D9C9 = {
+		C3D8B6DE15FD830A008DCE4B = {
 			isa = PBXGroup;
 			children = (
-				C341D9F815FC3A9A0013D9C9 /* 风尚生活 */,
-				C341D9F115FC3A990013D9C9 /* Frameworks */,
-				C341D9EF15FC3A990013D9C9 /* Products */,
+				C3D8B6F315FD830A008DCE4B /* 风尚生活 */,
+				C3D8B6EC15FD830A008DCE4B /* Frameworks */,
+				C3D8B6EA15FD830A008DCE4B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C341D9EF15FC3A990013D9C9 /* Products */ = {
+		C3D8B6EA15FD830A008DCE4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C341D9EE15FC3A990013D9C9 /* 风尚生活.app */,
+				C3D8B6E915FD830A008DCE4B /* 风尚生活.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C341D9F115FC3A990013D9C9 /* Frameworks */ = {
+		C3D8B6EC15FD830A008DCE4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C341D9F215FC3A990013D9C9 /* UIKit.framework */,
-				C341D9F415FC3A990013D9C9 /* Foundation.framework */,
-				C341D9F615FC3A990013D9C9 /* CoreGraphics.framework */,
+				C3D8B6ED15FD830A008DCE4B /* UIKit.framework */,
+				C3D8B6EF15FD830A008DCE4B /* Foundation.framework */,
+				C3D8B6F115FD830A008DCE4B /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C341D9F815FC3A9A0013D9C9 /* 风尚生活 */ = {
+		C3D8B6F315FD830A008DCE4B /* 风尚生活 */ = {
 			isa = PBXGroup;
 			children = (
-				C341DA0115FC3A9A0013D9C9 /* AppDelegate.h */,
-				C341DA0215FC3A9A0013D9C9 /* AppDelegate.m */,
-				C341DA1D15FC3AC40013D9C9 /* firstViewController.h */,
-				C341DA1E15FC3AC40013D9C9 /* firstViewController.m */,
-				C341DA2015FC3ACC0013D9C9 /* secondViewController.h */,
-				C341DA2115FC3ACC0013D9C9 /* secondViewController.m */,
-				C3C1A06015FC737E0014F202 /* fourViewController.h */,
-				C3C1A06115FC737E0014F202 /* fourViewController.m */,
-				C3A96D5D15FC43C000D5C6C0 /* homePage */,
-				C3A96D5C15FC43B500D5C6C0 /* food */,
-				C3A96D5B15FC43A300D5C6C0 /* weather */,
-				C3C1A05E15FC733C0014F202 /* film */,
-				C341D9F915FC3A9A0013D9C9 /* Supporting Files */,
+				C3D8B6FC15FD830A008DCE4B /* AppDelegate.h */,
+				C3D8B6FD15FD830A008DCE4B /* AppDelegate.m */,
+				C3D8B71815FD831C008DCE4B /* firstViewController.h */,
+				C3D8B71915FD831C008DCE4B /* firstViewController.m */,
+				C3D8B71B15FD8325008DCE4B /* secondViewController.h */,
+				C3D8B71C15FD8325008DCE4B /* secondViewController.m */,
+				C3D8B71E15FD832C008DCE4B /* thirdViewController.h */,
+				C3D8B71F15FD832C008DCE4B /* thirdViewController.m */,
+				C3D8B72115FD8334008DCE4B /* fourViewController.h */,
+				C3D8B72215FD8334008DCE4B /* fourViewController.m */,
+				C3D8B72415FD83AE008DCE4B /* homePage */,
+				C3D8B72715FD83D6008DCE4B /* weather */,
+				C3D8B72815FD83E2008DCE4B /* food */,
+				C3D8B72615FD83C9008DCE4B /* film */,
+				C3D8B6F415FD830A008DCE4B /* Supporting Files */,
 			);
 			path = "风尚生活";
 			sourceTree = "<group>";
 		};
-		C341D9F915FC3A9A0013D9C9 /* Supporting Files */ = {
+		C3D8B6F415FD830A008DCE4B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C341DA3815FC3D6E0013D9C9 /* images */,
-				C341D9FA15FC3A9A0013D9C9 /* 风尚生活-Info.plist */,
-				C341D9FB15FC3A9A0013D9C9 /* InfoPlist.strings */,
-				C341D9FE15FC3A9A0013D9C9 /* main.m */,
-				C341DA0015FC3A9A0013D9C9 /* 风尚生活-Prefix.pch */,
+				C3D8B75715FD8702008DCE4B /* images */,
+				C3D8B6F515FD830A008DCE4B /* 风尚生活-Info.plist */,
+				C3D8B6F615FD830A008DCE4B /* InfoPlist.strings */,
+				C3D8B6F915FD830A008DCE4B /* main.m */,
+				C3D8B6FB15FD830A008DCE4B /* 风尚生活-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C341DA3815FC3D6E0013D9C9 /* images */ = {
+		C3D8B72415FD83AE008DCE4B /* homePage */ = {
 			isa = PBXGroup;
 			children = (
-				C3C1A06615FC74CD0014F202 /* 影视.png */,
-				C3C1A06715FC74CD0014F202 /* 饮食.png */,
-				C3A96D5715FC434B00D5C6C0 /* 首页.png */,
-				C3A96D5815FC434B00D5C6C0 /* 天气.png */,
-			);
-			name = images;
-			sourceTree = "<group>";
-		};
-		C3A96D5B15FC43A300D5C6C0 /* weather */ = {
-			isa = PBXGroup;
-			children = (
-				C341DA2E15FC3BD60013D9C9 /* WeatherViewController.h */,
-				C341DA2F15FC3BD60013D9C9 /* WeatherViewController.m */,
-				C341DA3015FC3BD60013D9C9 /* WeatherViewController.xib */,
-			);
-			name = weather;
-			sourceTree = "<group>";
-		};
-		C3A96D5C15FC43B500D5C6C0 /* food */ = {
-			isa = PBXGroup;
-			children = (
-				C341DA3315FC3C220013D9C9 /* FoodViewController.h */,
-				C341DA3415FC3C220013D9C9 /* FoodViewController.m */,
-				C341DA3515FC3C220013D9C9 /* FoodViewController.xib */,
-			);
-			name = food;
-			sourceTree = "<group>";
-		};
-		C3A96D5D15FC43C000D5C6C0 /* homePage */ = {
-			isa = PBXGroup;
-			children = (
-				C341DA2915FC3B6F0013D9C9 /* HomePageViewController.h */,
-				C341DA2A15FC3B6F0013D9C9 /* HomePageViewController.m */,
-				C341DA2B15FC3B6F0013D9C9 /* HomePageViewController.xib */,
+				C3D8B74015FD8530008DCE4B /* HomePageViewController.h */,
+				C3D8B74115FD8530008DCE4B /* HomePageViewController.m */,
+				C3D8B74215FD8530008DCE4B /* HomePageViewController.xib */,
 			);
 			name = homePage;
 			sourceTree = "<group>";
 		};
-		C3C1A05E15FC733C0014F202 /* film */ = {
+		C3D8B72615FD83C9008DCE4B /* film */ = {
 			isa = PBXGroup;
 			children = (
-				C3C1A06315FC73BE0014F202 /* FileViewController.h */,
-				C3C1A06415FC73BE0014F202 /* FileViewController.m */,
+				C3D8B75415FD867F008DCE4B /* FilmViewController.h */,
+				C3D8B75515FD867F008DCE4B /* FilmViewController.m */,
 			);
 			name = film;
+			sourceTree = "<group>";
+		};
+		C3D8B72715FD83D6008DCE4B /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				C3D8B74A15FD85CD008DCE4B /* WeatherViewController.h */,
+				C3D8B74B15FD85CD008DCE4B /* WeatherViewController.m */,
+				C3D8B74C15FD85CD008DCE4B /* WeatherViewController.xib */,
+			);
+			name = weather;
+			sourceTree = "<group>";
+		};
+		C3D8B72815FD83E2008DCE4B /* food */ = {
+			isa = PBXGroup;
+			children = (
+				C3D8B74F15FD862E008DCE4B /* FoodViewController.h */,
+				C3D8B75015FD862E008DCE4B /* FoodViewController.m */,
+				C3D8B75115FD862E008DCE4B /* FoodViewController.xib */,
+			);
+			name = food;
+			sourceTree = "<group>";
+		};
+		C3D8B75715FD8702008DCE4B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C3D8B73815FD8467008DCE4B /* 影视.png */,
+				C3D8B73915FD8467008DCE4B /* 饮食.png */,
+				C3D8B73A15FD8467008DCE4B /* 首页.png */,
+				C3D8B73B15FD8467008DCE4B /* 天气.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C341D9ED15FC3A990013D9C9 /* 风尚生活 */ = {
+		C3D8B6E815FD830A008DCE4B /* 风尚生活 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C341DA1A15FC3A9A0013D9C9 /* Build configuration list for PBXNativeTarget "风尚生活" */;
+			buildConfigurationList = C3D8B71515FD830B008DCE4B /* Build configuration list for PBXNativeTarget "风尚生活" */;
 			buildPhases = (
-				C341D9EA15FC3A990013D9C9 /* Sources */,
-				C341D9EB15FC3A990013D9C9 /* Frameworks */,
-				C341D9EC15FC3A990013D9C9 /* Resources */,
+				C3D8B6E515FD830A008DCE4B /* Sources */,
+				C3D8B6E615FD830A008DCE4B /* Frameworks */,
+				C3D8B6E715FD830A008DCE4B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -203,77 +208,78 @@
 			);
 			name = "风尚生活";
 			productName = "风尚生活";
-			productReference = C341D9EE15FC3A990013D9C9 /* 风尚生活.app */;
+			productReference = C3D8B6E915FD830A008DCE4B /* 风尚生活.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C341D9E515FC3A990013D9C9 /* Project object */ = {
+		C3D8B6E015FD830A008DCE4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = administrator;
 			};
-			buildConfigurationList = C341D9E815FC3A990013D9C9 /* Build configuration list for PBXProject "风尚生活" */;
+			buildConfigurationList = C3D8B6E315FD830A008DCE4B /* Build configuration list for PBXProject "风尚生活" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C341D9E315FC3A990013D9C9;
-			productRefGroup = C341D9EF15FC3A990013D9C9 /* Products */;
+			mainGroup = C3D8B6DE15FD830A008DCE4B;
+			productRefGroup = C3D8B6EA15FD830A008DCE4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C341D9ED15FC3A990013D9C9 /* 风尚生活 */,
+				C3D8B6E815FD830A008DCE4B /* 风尚生活 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C341D9EC15FC3A990013D9C9 /* Resources */ = {
+		C3D8B6E715FD830A008DCE4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C341D9FD15FC3A9A0013D9C9 /* InfoPlist.strings in Resources */,
-				C341DA2D15FC3B6F0013D9C9 /* HomePageViewController.xib in Resources */,
-				C341DA3215FC3BD60013D9C9 /* WeatherViewController.xib in Resources */,
-				C341DA3715FC3C220013D9C9 /* FoodViewController.xib in Resources */,
-				C3A96D5915FC434B00D5C6C0 /* 首页.png in Resources */,
-				C3A96D5A15FC434B00D5C6C0 /* 天气.png in Resources */,
-				C3C1A06815FC74CD0014F202 /* 影视.png in Resources */,
-				C3C1A06915FC74CD0014F202 /* 饮食.png in Resources */,
+				C3D8B6F815FD830A008DCE4B /* InfoPlist.strings in Resources */,
+				C3D8B73C15FD8467008DCE4B /* 影视.png in Resources */,
+				C3D8B73D15FD8467008DCE4B /* 饮食.png in Resources */,
+				C3D8B73E15FD8467008DCE4B /* 首页.png in Resources */,
+				C3D8B73F15FD8467008DCE4B /* 天气.png in Resources */,
+				C3D8B74415FD8530008DCE4B /* HomePageViewController.xib in Resources */,
+				C3D8B74E15FD85CD008DCE4B /* WeatherViewController.xib in Resources */,
+				C3D8B75315FD862E008DCE4B /* FoodViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C341D9EA15FC3A990013D9C9 /* Sources */ = {
+		C3D8B6E515FD830A008DCE4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C341D9FF15FC3A9A0013D9C9 /* main.m in Sources */,
-				C341DA0315FC3A9A0013D9C9 /* AppDelegate.m in Sources */,
-				C341DA1F15FC3AC40013D9C9 /* firstViewController.m in Sources */,
-				C341DA2215FC3ACC0013D9C9 /* secondViewController.m in Sources */,
-				C341DA2C15FC3B6F0013D9C9 /* HomePageViewController.m in Sources */,
-				C341DA3115FC3BD60013D9C9 /* WeatherViewController.m in Sources */,
-				C341DA3615FC3C220013D9C9 /* FoodViewController.m in Sources */,
-				C3C1A06215FC737E0014F202 /* fourViewController.m in Sources */,
-				C3C1A06515FC73BE0014F202 /* FileViewController.m in Sources */,
+				C3D8B6FA15FD830A008DCE4B /* main.m in Sources */,
+				C3D8B6FE15FD830A008DCE4B /* AppDelegate.m in Sources */,
+				C3D8B71A15FD831C008DCE4B /* firstViewController.m in Sources */,
+				C3D8B71D15FD8325008DCE4B /* secondViewController.m in Sources */,
+				C3D8B72015FD832C008DCE4B /* thirdViewController.m in Sources */,
+				C3D8B72315FD8334008DCE4B /* fourViewController.m in Sources */,
+				C3D8B74315FD8530008DCE4B /* HomePageViewController.m in Sources */,
+				C3D8B74D15FD85CD008DCE4B /* WeatherViewController.m in Sources */,
+				C3D8B75215FD862E008DCE4B /* FoodViewController.m in Sources */,
+				C3D8B75615FD867F008DCE4B /* FilmViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C341D9FB15FC3A9A0013D9C9 /* InfoPlist.strings */ = {
+		C3D8B6F615FD830A008DCE4B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C341D9FC15FC3A9A0013D9C9 /* en */,
+				C3D8B6F715FD830A008DCE4B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -281,7 +287,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C341DA1815FC3A9A0013D9C9 /* Debug */ = {
+		C3D8B71315FD830B008DCE4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +314,7 @@
 			};
 			name = Debug;
 		};
-		C341DA1915FC3A9A0013D9C9 /* Release */ = {
+		C3D8B71415FD830B008DCE4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,31 +336,23 @@
 			};
 			name = Release;
 		};
-		C341DA1B15FC3A9A0013D9C9 /* Debug */ = {
+		C3D8B71615FD830B008DCE4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "风尚生活/风尚生活-Prefix.pch";
 				INFOPLIST_FILE = "风尚生活/风尚生活-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		C341DA1C15FC3A9A0013D9C9 /* Release */ = {
+		C3D8B71715FD830B008DCE4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "风尚生活/风尚生活-Prefix.pch";
 				INFOPLIST_FILE = "风尚生活/风尚生活-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -363,25 +361,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C341D9E815FC3A990013D9C9 /* Build configuration list for PBXProject "风尚生活" */ = {
+		C3D8B6E315FD830A008DCE4B /* Build configuration list for PBXProject "风尚生活" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C341DA1815FC3A9A0013D9C9 /* Debug */,
-				C341DA1915FC3A9A0013D9C9 /* Release */,
+				C3D8B71315FD830B008DCE4B /* Debug */,
+				C3D8B71415FD830B008DCE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C341DA1A15FC3A9A0013D9C9 /* Build configuration list for PBXNativeTarget "风尚生活" */ = {
+		C3D8B71515FD830B008DCE4B /* Build configuration list for PBXNativeTarget "风尚生活" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C341DA1B15FC3A9A0013D9C9 /* Debug */,
-				C341DA1C15FC3A9A0013D9C9 /* Release */,
+				C3D8B71615FD830B008DCE4B /* Debug */,
+				C3D8B71715FD830B008DCE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C341D9E515FC3A990013D9C9 /* Project object */;
+	rootObject = C3D8B6E015FD830A008DCE4B /* Project object */;
 }

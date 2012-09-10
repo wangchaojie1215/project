@@ -2,7 +2,7 @@
 //  fourViewController.m
 //  风尚生活
 //
-//  Created by administrator on 12-9-9.
+//  Created by administrator on 12-9-10.
 //  Copyright (c) 2012年 administrator. All rights reserved.
 //
 
@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.root=[[FileViewController alloc]init];
+        self.root=[[FilmViewController alloc]init];
         self=(fourViewController *)[[UINavigationController alloc]initWithRootViewController:self.root];
         self.title=@"影视";
         self.tabBarItem.image=[UIImage imageNamed:@"影视"];

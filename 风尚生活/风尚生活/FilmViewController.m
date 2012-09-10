@@ -1,24 +1,24 @@
 //
-//  FileViewController.m
+//  FilmViewController.m
 //  风尚生活
 //
-//  Created by administrator on 12-9-9.
+//  Created by administrator on 12-9-10.
 //  Copyright (c) 2012年 administrator. All rights reserved.
 //
 
-#import "FileViewController.h"
+#import "FilmViewController.h"
 
-@interface FileViewController ()
+@interface FilmViewController ()
 
 @end
 
-@implementation FileViewController
+@implementation FilmViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+        self.title=@"影视";
     }
     return self;
 }
@@ -32,7 +32,6 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.title=@"影视";
 }
 
 - (void)viewDidUnload
@@ -48,6 +47,13 @@
 }
 
 #pragma mark - Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+#warning Potentially incomplete method implementation.
+    // Return the number of sections.
+    return 0;
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
