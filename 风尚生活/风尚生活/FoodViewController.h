@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AibangApi.h"
+#import "ListViewController.h"
+@interface FoodViewController : UIViewController{
+    AibangApi * api;
+    ListViewController *list;
+}
 
-@interface FoodViewController : UIViewController
+
+- (IBAction)searchButton:(UIButton *)sender;
 
 @end

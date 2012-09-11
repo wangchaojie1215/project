@@ -11,10 +11,12 @@
 #import "secondViewController.h"
 #import "thirdViewController.h"
 #import "fourViewController.h"
+#import "AibangApi.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [AibangApi setAppkey:@"eb9bf158826844ca4af15f2075993ea1"];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     firstViewController *first=[[firstViewController alloc]init];

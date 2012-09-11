@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C34F0A8215FF4349002970D0 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C34F0A8115FF4349002970D0 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C34F0A8515FF435C002970D0 /* libAibangApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C34F0A8415FF435C002970D0 /* libAibangApi.a */; };
+		C34F0A8815FF4382002970D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34F0A8715FF4382002970D0 /* CoreLocation.framework */; };
+		C34F0A8C15FF4484002970D0 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34F0A8A15FF4484002970D0 /* ListViewController.m */; };
+		C34F0A8D15FF4484002970D0 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34F0A8B15FF4484002970D0 /* ListViewController.xib */; };
+		C34F0A9115FF458D002970D0 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34F0A8F15FF458D002970D0 /* MessageViewController.m */; };
+		C34F0A9215FF458D002970D0 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34F0A9015FF458D002970D0 /* MessageViewController.xib */; };
 		C3D8B6EE15FD830A008DCE4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D8B6ED15FD830A008DCE4B /* UIKit.framework */; };
 		C3D8B6F015FD830A008DCE4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D8B6EF15FD830A008DCE4B /* Foundation.framework */; };
 		C3D8B6F215FD830A008DCE4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D8B6F115FD830A008DCE4B /* CoreGraphics.framework */; };
@@ -31,6 +38,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C34F0A8015FF4349002970D0 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		C34F0A8115FF4349002970D0 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		C34F0A8415FF435C002970D0 /* libAibangApi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAibangApi.a; sourceTree = "<group>"; };
+		C34F0A8615FF436D002970D0 /* AibangApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AibangApi.h; sourceTree = "<group>"; };
+		C34F0A8715FF4382002970D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C34F0A8915FF4484002970D0 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		C34F0A8A15FF4484002970D0 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		C34F0A8B15FF4484002970D0 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		C34F0A8E15FF458D002970D0 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		C34F0A8F15FF458D002970D0 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		C34F0A9015FF458D002970D0 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
 		C3D8B6E915FD830A008DCE4B /* 风尚生活.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "风尚生活.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D8B6ED15FD830A008DCE4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C3D8B6EF15FD830A008DCE4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,18 +89,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34F0A8815FF4382002970D0 /* CoreLocation.framework in Frameworks */,
 				C3D8B6EE15FD830A008DCE4B /* UIKit.framework in Frameworks */,
 				C3D8B6F015FD830A008DCE4B /* Foundation.framework in Frameworks */,
 				C3D8B6F215FD830A008DCE4B /* CoreGraphics.framework in Frameworks */,
+				C34F0A8515FF435C002970D0 /* libAibangApi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C34F0A7F15FF4349002970D0 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				C34F0A8015FF4349002970D0 /* JSONKit.h */,
+				C34F0A8115FF4349002970D0 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
 		C3D8B6DE15FD830A008DCE4B = {
 			isa = PBXGroup;
 			children = (
+				C34F0A8715FF4382002970D0 /* CoreLocation.framework */,
+				C34F0A8615FF436D002970D0 /* AibangApi.h */,
+				C34F0A8415FF435C002970D0 /* libAibangApi.a */,
+				C34F0A7F15FF4349002970D0 /* JSONKit */,
 				C3D8B6F315FD830A008DCE4B /* 风尚生活 */,
 				C3D8B6EC15FD830A008DCE4B /* Frameworks */,
 				C3D8B6EA15FD830A008DCE4B /* Products */,
@@ -175,6 +208,12 @@
 			children = (
 				C3D8B74F15FD862E008DCE4B /* FoodViewController.h */,
 				C3D8B75015FD862E008DCE4B /* FoodViewController.m */,
+				C34F0A8915FF4484002970D0 /* ListViewController.h */,
+				C34F0A8A15FF4484002970D0 /* ListViewController.m */,
+				C34F0A8E15FF458D002970D0 /* MessageViewController.h */,
+				C34F0A8F15FF458D002970D0 /* MessageViewController.m */,
+				C34F0A9015FF458D002970D0 /* MessageViewController.xib */,
+				C34F0A8B15FF4484002970D0 /* ListViewController.xib */,
 				C3D8B75115FD862E008DCE4B /* FoodViewController.xib */,
 			);
 			name = food;
@@ -250,6 +289,8 @@
 				C3D8B74415FD8530008DCE4B /* HomePageViewController.xib in Resources */,
 				C3D8B74E15FD85CD008DCE4B /* WeatherViewController.xib in Resources */,
 				C3D8B75315FD862E008DCE4B /* FoodViewController.xib in Resources */,
+				C34F0A8D15FF4484002970D0 /* ListViewController.xib in Resources */,
+				C34F0A9215FF458D002970D0 /* MessageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +311,9 @@
 				C3D8B74D15FD85CD008DCE4B /* WeatherViewController.m in Sources */,
 				C3D8B75215FD862E008DCE4B /* FoodViewController.m in Sources */,
 				C3D8B75615FD867F008DCE4B /* FilmViewController.m in Sources */,
+				C34F0A8215FF4349002970D0 /* JSONKit.m in Sources */,
+				C34F0A8C15FF4484002970D0 /* ListViewController.m in Sources */,
+				C34F0A9115FF458D002970D0 /* MessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +386,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "风尚生活/风尚生活-Prefix.pch";
 				INFOPLIST_FILE = "风尚生活/风尚生活-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -353,6 +401,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "风尚生活/风尚生活-Prefix.pch";
 				INFOPLIST_FILE = "风尚生活/风尚生活-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,6 +429,7 @@
 				C3D8B71715FD830B008DCE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
